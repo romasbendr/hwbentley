@@ -12,6 +12,7 @@
 `.\Scripts\activate` (this command is for windows)
 - in `homework` directory run `pip install -r requirements.txt` (generated with `pip freeze`)
 - in `homework` directory run `flask run`
+- to run app enter url `http://127.0.0.1:5000/12` where 12 is nth index of the series
 
 
 # Tests: how to run locally
