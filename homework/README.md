@@ -7,14 +7,16 @@
 
 # Application: how to run locally
 
-- activate virtual environment `venv`
+- clone repo and `cd` into `homework` directory
+- activate virtual environment `python -m venv .`
+`.\Scripts\activate` (this command is for windows)
 - in `homework` directory run `pip install -r requirements.txt` (generated with `pip freeze`)
 - in `homework` directory run `flask run`
 
 
 # Tests: how to run locally
 
-- in `homework` directory run `pytest`
+- to run tests enter `cd .\fibonaci_calc\` and `pytest`
 - to add new tests go to `tests/test_app.py` and add new functions with first word as `test_`
 
 

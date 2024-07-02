@@ -1,7 +1,7 @@
 from flask import Flask
 
 
-def create_app(config):
+def create_app(config=None):
     """Core application"""
     app = Flask(__name__)
 
